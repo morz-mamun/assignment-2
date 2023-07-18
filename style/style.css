@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common styles */
+:root {
+    --primary-color: #FF42A5;
+}
+
+.container {
+    margin: 0 15rem;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* common styles end*/
+
+/* header style */
+
+/* nav style */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav-left img {
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.nav-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-right li {
+    list-style: none;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.follow-us:hover{
+    cursor: pointer;
+}
+.follow-us {
+    color: #3C354F;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    gap: 20px;
+    padding: 15px 20px;
+}
+/* nav style end*/
+
+/* header style end*/
