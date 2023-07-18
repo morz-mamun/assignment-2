@@ -20,6 +20,29 @@
     font-weight: 700;
 }
 
+.description {
+    color: #534C64;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 48px;
+    background: var(--primary-color);
+    padding: 20px 40px;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pic {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
 /* common styles end*/
 
 /* header style */
@@ -29,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem;
+    padding: 2.5rem 0;
 }
 
 .nav-left {
@@ -59,9 +82,10 @@
     color: #3C354F;
 }
 
-.follow-us:hover{
+.follow-us:hover {
     cursor: pointer;
 }
+
 .follow-us {
     color: #3C354F;
     border-radius: 8px;
@@ -70,6 +94,33 @@
     gap: 20px;
     padding: 15px 20px;
 }
+
 /* nav style end*/
+
+/* banner style */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    flex-wrap: wrap;
+    /* margin: 20px 240px; */
+}
+
+.banner-right img{
+    width: auto;
+}
+.linear {
+    font-size: 95px;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title-1 {
+    font-weight: 600;
+}
+
+/* banner style end*/
 
 /* header style end*/
