@@ -7,7 +7,9 @@
     .nav-left {
         margin-bottom: 20px;
     }
-
+    .banner-main{
+        background-size: cover;
+    }
     .banner-container {
         flex-direction: column-reverse;
         gap: 50px;
@@ -94,7 +96,9 @@
     }
 
     /* nav end */
-
+    .banner-main{
+        background-size: cover;
+    }
     .banner-container {
         flex-direction: column-reverse;
         gap: 50px;
