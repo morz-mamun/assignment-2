@@ -151,28 +151,120 @@
 .card-img {
     border-radius: 16px;
 }
+
 /* online game style end*/
 
 /* Play instanly style */
-.play-inst-container{
+.play-inst-container {
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
 }
-.content{
+
+.content {
     width: 50%;
 }
-.content-img{
+
+.content-img {
     width: 50%;
     position: relative;
 }
 
-.pic-2{
+.pic-2 {
     position: absolute;
     bottom: -100px;
     left: -150px;
-    
+
 }
+
 /* Play instanly style end*/
+
+.icon-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* .icon-container a{
+    text-decoration: none;
+} */
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin-bottom: 130px;
+}
+.icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon:hover {
+    border: 1px solid tomato;
+    border-radius: 50px;
+    background: #FFF;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+/* footer styles */
+footer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #111;
+    max-width: 100vw;
+    
+    /* padding: 120px auto; */
+    color: white;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 60px;
+}
+.footer-list li{
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer-list a{
+ text-decoration: none;
+}
+
+.footer-icons{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+}
+.footer-icons button:hover{
+    background: red;
+}
+
+.footer-text{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.footer-text a{
+    text-decoration: none;
+   }
+
+.footer-text li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    
+    font-size: 16px;
+}
