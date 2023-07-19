@@ -182,14 +182,8 @@
 
 /* Play instanly style end*/
 
-.icon-container {
-    max-width: 1400px;
-    margin: 0 auto;
-}
 
-/* .icon-container a{
-    text-decoration: none;
-} */
+
 .icon-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -215,10 +209,7 @@
 footer{
     padding-top: 120px;
     padding-bottom: 120px;
-    background: #111;
-    max-width: 100vw;
-    
-    /* padding: 120px auto; */
+    background: #111; 
     color: white;
 }
 .footer-content{
