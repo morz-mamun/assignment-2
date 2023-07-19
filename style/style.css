@@ -12,7 +12,8 @@
 }
 
 .container {
-    margin: 0 15rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .title {
@@ -98,17 +99,25 @@
 /* nav style end*/
 
 /* banner style */
-.banner-container{
+.banner-main {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-   align-items: center;
-    flex-wrap: wrap;
+    align-items: center;
+    /* flex-wrap: wrap; */
     /* margin: 20px 240px; */
 }
 
-.banner-right img{
-    width: auto;
+.banner-right img {
+    width: 100%;
 }
+
 .linear {
     font-size: 95px;
     font-weight: 800;
@@ -124,3 +133,46 @@
 /* banner style end*/
 
 /* header style end*/
+/* online game style */
+.online-game-title {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 130px;
+}
+
+.card,
+.card-img {
+    border-radius: 16px;
+}
+/* online game style end*/
+
+/* Play instanly style */
+.play-inst-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    width: 50%;
+}
+.content-img{
+    width: 50%;
+    position: relative;
+}
+
+.pic-2{
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+    
+}
+/* Play instanly style end*/

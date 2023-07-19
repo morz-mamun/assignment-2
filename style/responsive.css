@@ -1,0 +1,70 @@
+@media screen and (max-width:425px) {
+    .nav-container, .nav-right{
+        flex-direction: column;
+    }
+    .nav-left{
+        margin-bottom: 20px;
+    }  
+    /* nav end */
+
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .banner-left{
+        text-align: center;
+    }
+    .pic-container{
+        margin: 20px 30px 0;
+    }
+    .banner-right{
+        padding: 0 30px;
+    }
+
+    /* banner end */
+    .card-container {
+        grid-template-columns: 1fr;
+        padding-left: 40px;
+    }
+    .online-game-title{
+        padding: 20px;
+
+    }
+    .online-game-title h1{
+        font-size: 30px;
+    }
+    .online-game-title p{
+        font-size: 12px;
+    }
+    /* card style end */
+   
+    .play-inst-container{
+        flex-direction: column;
+        gap: 20px;
+        /* padding-right: 100px; */
+
+    }
+    .content{
+        text-align: center;
+    }
+    .content p{
+        font-size: 10px;
+    }
+    .content-img{
+        width: 200px;
+        margin:0 auto;
+        position: relative;
+        padding-right: 100px;
+    }
+    .pic-1{
+        width: 300px;
+        
+    }
+    .pic-2{
+        width: 100px;
+        position: absolute;
+        left: -50px;
+        top:  220px;
+    }
+}
